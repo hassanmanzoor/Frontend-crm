@@ -1,0 +1,427 @@
+.nav-wrapper > .my-nav {
+  display: block !important;
+}
+.s-adv {
+  height: 270px;
+  overflow: hidden;
+  padding: 30px 0;
+  background: #fff url(../images/why-choose-bg.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 110;
+}
+.s-adv h1 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.s-adv .rocet {
+  display: none;
+}
+.btn-buy {
+  padding: 12px 15px;
+  line-height: 1.2;
+  height: auto;
+  font-size: 14px;
+}
+.section-padding {
+  padding: 60px 15px;
+}
+.section-padding h2 {
+  margin-bottom: 40px;
+}
+.section-padding .advertisers-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section-padding .advertisers-block .img-container {
+  margin: 0 auto 24px;
+  height: 180px;
+  padding: 24px;
+  border: 1px solid #2ea8df;
+  border-radius: 7px;
+  color: #000;
+  box-shadow: 0 -2px 10px -2px #2ea8df;
+  transition: ease-in 0.15s;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-padding .advertisers-block .img-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 -2px 10px -2px #ff7903;
+  border-color: #ff7903;
+}
+.section-padding .orange-text {
+  font-size: 30px;
+  color: #ff7903;
+}
+.advertisers-advantages {
+  background: #e9f4fb;
+  padding: 45px 20px;
+  overflow: hidden;
+  color: #384a5c;
+}
+.advertisers-advantages h2 {
+  margin-bottom: 40px;
+}
+.advertisers-advantages svg {
+  fill: #4b768e;
+  width: 80px;
+}
+.section-content {
+  padding: 30px 0 60px 0;
+}
+.light {
+  background-color: #fff;
+}
+.brand-color-bg {
+  background: #e9f4fb;
+}
+.rates-container,
+.rates-nav {
+  display: none;
+}
+.rates h2 {
+  margin-bottom: 40px;
+}
+.rates .accordion {
+  margin: 30px auto;
+}
+.rates .accordion__link {
+  text-transform: uppercase;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #f4f4f4;
+  color: #8b9daa;
+  font-weight: 700;
+  transition: ease-in-out 0.4s;
+  margin-bottom: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+.rates .accordion__link svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  fill: #7b8daa;
+  transition: ease-in-out 0.4s;
+}
+.rates .accordion__link svg:first-of-type {
+  left: 28px;
+}
+.rates .accordion__link svg:last-of-type {
+  height: 25px;
+  right: 25px;
+}
+.rates .accordion__submenu {
+  background: #fff;
+  font-size: 16px;
+  height: auto;
+  border-bottom: 1px solid #8b9daa;
+  text-align: center;
+}
+.rates .accordion__submenu:last-of-type {
+  border-bottom: none;
+}
+.rates .flags {
+  background-image: url(../images/flag-sprite.png);
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: middle;
+}
+.open .accordion__link {
+  color: #fff;
+  background: #00ade2;
+}
+.open .accordion__link svg {
+  fill: #fff;
+}
+.open .accordion__link svg:last-of-type {
+  transform: rotate(180deg);
+}
+.rates-devices {
+  display: flex;
+  justify-content: center;
+}
+.rates-devices > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #95c7dd;
+  width: 100%;
+  height: 50px;
+  margin-right: 2px;
+  color: #fff;
+  font-weight: 700;
+}
+.rates-devices > div svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+.rates-devices > div:last-of-type {
+  margin-right: 0;
+}
+.rates-table {
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.rates-table .rate-item {
+  background: #f8f8f8;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 43px;
+  font-weight: 700;
+  color: #384a5c;
+  font-size: 16px;
+}
+.rates-table .rate-item .rate-country {
+  font-weight: 700;
+  display: flex;
+}
+.rates-table .rate-item .rate-country img {
+  margin-right: 10px;
+  width: 36px;
+  height: 20px;
+}
+.rates-table .rate-item .rate-quantity {
+  color: #ff7903;
+  width: 33%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.rates-table .rate-item .rate-cost {
+  width: 33%;
+  text-align: center;
+}
+.active-rates-table {
+  display: flex;
+  animation: show 0.4s ease;
+}
+.phone-rates-container {
+  width: 100%;
+  height: 184px;
+  transition: all 0.6s;
+  background: #fff;
+  overflow: hidden;
+}
+.phone-rates-container svg {
+  transition: ease-in-out 0.4s;
+}
+.phone-rates-container-open {
+  height: 315px;
+}
+.phone-rates-container-open svg:last-of-type {
+  transform: rotate(-180deg);
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.verticals-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.verticals-box {
+  margin-bottom: 24px;
+  flex: 1 0 50%;
+}
+.how-to-start {
+  padding: 30px 0 0;
+}
+.how-to-start p {
+  font-size: 16px;
+}
+.how-to-start .ol-list-item {
+  list-style: decimal;
+  color: #3498db;
+  margin-bottom: 25px;
+  padding-left: 18px;
+}
+.how-to-start .ol-list-item li {
+  font-size: 12pt;
+  line-height: 23pt;
+}
+.how-to-start .ol-list-item li span {
+  color: #8b9daa;
+}
+.how-to-start .btn-publishers {
+  display: inline-block;
+  width: 135px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 53px;
+  background-image: linear-gradient(0deg, #ff6a09 0, #fb4b02 100%);
+  border-radius: 7px 0 0 7px;
+  transition: ease-in-out 0.25s;
+  box-shadow: -2px 3px 4px 1px rgba(0, 0, 0, 0.35);
+  font-weight: 700;
+}
+.how-to-start .btn-publishers:hover {
+  transform: translateY(3px);
+  box-shadow: 0 2px 4px 0 rgba(255, 0, 0, 0.6);
+}
+.how-to-start .btn-buy-blue {
+  background-image: linear-gradient(0deg, #2ea8df 0, #11adf4eb 100%);
+  border-radius: 0 7px 7px 0;
+  box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.35);
+}
+.how-to-start .btn-buy-blue:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 121, 255, 0.6);
+}
+@media (max-width: 768px) {
+  .start-btn-group {
+    text-align: center;
+  }
+}
+.conclusion {
+  padding: 55px 15px 65px;
+  background: url(../images/bg_earn_money.jpg);
+  background-size: cover;
+}
+.conclusion h2 {
+  margin-bottom: 25px;
+}
+.conclusion p {
+  margin-bottom: 60px;
+  line-height: 1.4;
+}
+@media (min-width: 820px) {
+  .s-adv h1 {
+    font-size: 40px;
+  }
+  .accordion {
+    max-width: 85%;
+  }
+  .accordion .box:first-of-type .accordion__link {
+    border-radius: 7px 7px 0 0;
+  }
+  .accordion .box:last-of-type .accordion__link {
+    border-radius: 0 0 7px 7px;
+  }
+  .rates-mobile {
+    display: flex;
+  }
+  .rates-mobile .phone-rates-container {
+    height: auto;
+    border-radius: 7px 7px 0 0;
+  }
+  .rates-mobile .phone-rates-container:nth-of-type(even) {
+    margin: 0 2px;
+  }
+  .rates-devices > div {
+    justify-content: center;
+    width: 100%;
+  }
+  .rates svg {
+    margin-right: 8px;
+  }
+  .rates svg:last-of-type {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .s-adv {
+    min-height: 460px;
+    padding: 70px 0 80px;
+  }
+  .s-adv h1 {
+    font-size: 55px;
+  }
+  .s-adv .font-s-45 {
+    font-size: 45px;
+  }
+  .s-adv .rocet {
+    display: block;
+    position: absolute;
+    left: 20%;
+    z-index: 10;
+    top: 30px;
+    margin-left: -228px;
+  }
+  .accordion {
+    display: none;
+  }
+  .rates-container {
+    display: block;
+    margin-bottom: 24px;
+  }
+  .rates-table {
+    display: none;
+  }
+  .rates-devices > div,
+  .rates-table > div {
+    max-width: 315px;
+    width: 100%;
+  }
+  .rates-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  .rates-nav__item {
+    background: #f6f6f6;
+    width: 100%;
+    max-width: 188px;
+    height: 50px;
+    margin-right: 2px;
+    transition: all 0.15s;
+    color: #afb7be;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .rates-nav__item svg {
+    transition: all 0.15s;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    fill: #afb7be;
+    display: block;
+  }
+  .rates-nav__item:first-of-type {
+    border-radius: 7px 0 0 7px;
+  }
+  .rates-nav__item:last-of-type {
+    border-radius: 0 7px 7px 0;
+  }
+  .active-rates-format {
+    background: #00ade2;
+    color: #fff;
+  }
+  .active-rates-table {
+    display: flex;
+    justify-content: center;
+  }
+  .active-rates svg {
+    fill: #fff;
+  }
+  .how-to-start h2 {
+    text-align: left;
+  }
+}

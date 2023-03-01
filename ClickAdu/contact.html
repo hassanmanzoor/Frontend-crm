@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <script
+      src="https://browser.sentry-cdn.com/5.20.1/bundle.min.js"
+      integrity="sha384-O8HdAJg1h8RARFowXd2J/r5fIWuinSBtjhwQoPesfVILeXzGpJxvyY/77OaPPXUo"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Flat-UI -->
+    <link rel="stylesheet" href="css/flat-ui.min.css" />
+    <!-- end -->
+
+    <!-- Custom -->
+
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link rel="stylesheet" href="css/new_style.css" />
+
+    <!-- end -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-yii.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <title>Contact</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="css/slick.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link
+      rel="stylesheet"
+      href="css/slick-theme.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link
+      rel="stylesheet"
+      href="css/jquery.arcticmodal-0.3.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <link rel="stylesheet" href="css/news.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://onesignal.com/sdks/OneSignalSDKStyles.css?v=2"
+    />
+  </head>
+
+  <body>
+    <div
+      role="dialog"
+      aria-live="polite"
+      aria-label="cookieconsent"
+      aria-describedby="cookieconsent:desc"
+      class="cc-window cc-floating cc-type-info cc-theme-edgeless cc-bottom cc-left cc-color-override--357201703"
+    >
+      <!--googleoff: all--><span id="cookieconsent:desc" class="cc-message"
+        >This website uses cookies to ensure you get the best experience on our
+        website.
+        <a
+          aria-label="learn more about cookies"
+          role="button"
+          tabindex="0"
+          class="cc-link"
+          href="https://www.clickadu.com/cookies"
+          rel="noopener noreferrer nofollow"
+          >Learn more</a
+        ></span
+      >
+      <div class="cc-compliance">
+        <a
+          aria-label="dismiss cookie message"
+          role="button"
+          tabindex="0"
+          class="cc-btn cc-dismiss"
+          >Got it!</a
+        >
+      </div>
+      <!--googleon: all-->
+    </div>
+
+    <nav class="b-header navbar">
+      <div class="container nav-wrapper my-nav">
+        <!-- begin of menu -->
+        <div class="navbar-left">
+          <a href="index.html" title="" class="b-header__logo">
+            <picture class="lazy logo-desktop hidden-md hidden-sm hidden-xs">
+              <source data-srcset="images/logo.webp" />
+              <img data-srcset="images/logo.jpg" alt="logo" />
+            </picture>
+            <picture class="logo-mobile hidden-lg">
+              <source
+                data-srcset="images/logo-m.webp"
+                srcset="images/logo-m.webp"
+              />
+              <img
+                data-srcset="images/logo-m.jpg"
+                alt="logo"
+                srcset="images/logo-m.webp"
+                class="fade-in"
+              />
+            </picture>
+          </a>
+        </div>
+
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!-- buttons -->
+          <div class="b-header__btns navbar-right">
+            <ul class="w-nav-list">
+              <li class="w-nav-item">
+                <div class="w-nav-item__box">
+                  <a href="./registration.html" class="btn-up">REGISTER</a>
+                </div>
+              </li>
+              <li class="w-nav-item">
+                <div class="w-nav-item__box">
+                  <a href="javascript:void(0);" class="btn-in">Sign in</a>
+                  <ul class="w-nav-level_2 w-nav-blue">
+                    <li class="w-nav-item_2">
+                      <a
+                        class="w-nav-anchor level_2"
+                        href="./publisher_signin.html"
+                        ><span class="w-nav-title">Publisher</span></a
+                      >
+                    </li>
+                    <li class="w-nav-item_2">
+                      <a
+                        class="w-nav-anchor level_2"
+                        href="./advertiser_signin.html"
+                      >
+                        <span class="w-nav-title">Advertiser</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="nav navbar-right b-header__nav">
+            <li>
+              <a class="hover-line" href="advertisers.html">Advertiser</a>
+            </li>
+            <li><a class="hover-line" href="publishers.html">Publisher</a></li>
+
+            <li><a class="hover-line" href="contact.html">Contacts</a></li>
+            <li>
+              <a class="hover-line" rel="noopener noreferrer" href="./faq.html"
+                >FAQ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page-wrapper">
+      <section class="section-content s-contact">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1"
+            >
+              <h1>Contact</h1>
+              <p>
+                The answers to your questions might be in our
+                <a
+                  rel="noopener noreferrer"
+                  href="https://support.clickadu.com/"
+                  style="color: #16a085"
+                  >help section</a
+                >.<br />If you didn't find what you were looking for, please
+                send us a message using the following form.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Section 2-->
+
+      <!-- Section 3-->
+      <section class="section-form s-contact">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12"
+            >
+              <form role="form" method="POST">
+                <input type="hidden" name="eid" id="eid" />
+                <div class="form-group select-group">
+                  <label for="ticketType">Ticket Type</label>
+
+                  <select
+                    id="req_type"
+                    class="select-block mbl"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-trigger="manual"
+                    name="Contact[req_type]"
+                    style="display: none"
+                  >
+                    <option value="">Select ticket type*</option>
+                    <option value="tech">Technical</option>
+                    <option value="finance">Finance</option>
+                    <option value="other">OTHER</option>
+                  </select>
+                  <div class="btn-group select select-block mbl">
+                    <button
+                      class="btn dropdown-toggle clearfix form-control"
+                      data-toggle="dropdown"
+                      id="req_type"
+                    >
+                      <span class="filter-option pull-left"
+                        >Select ticket type*</span
+                      >&nbsp;<span class="caret"></span></button
+                    ><span class="dropdown-arrow"></span>
+                    <ul
+                      class="dropdown-menu"
+                      role="menu"
+                      style="overflow-y: auto; min-height: 108px"
+                    >
+                      <li rel="0" class="selected">
+                        <a tabindex="-1" href="#" class=""
+                          ><span class="pull-left">Select ticket type*</span></a
+                        >
+                      </li>
+                      <li rel="1">
+                        <a tabindex="-1" href="#" class=""
+                          ><span class="pull-left">Technical</span></a
+                        >
+                      </li>
+                      <li rel="2">
+                        <a tabindex="-1" href="#" class=""
+                          ><span class="pull-left">Finance</span></a
+                        >
+                      </li>
+                      <li rel="3">
+                        <a tabindex="-1" href="#" class=""
+                          ><span class="pull-left">OTHER</span></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <small style="color: darkred"></small>
+                </div>
+
+                <div class="form-group">
+                  <label for="username">Name / Last Name</label>
+                  <input
+                    id="name"
+                    placeholder="Username/Name*"
+                    class="form-control"
+                    autocomplete="off"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-trigger="manual"
+                    name="Contact[name]"
+                    type="text"
+                    maxlength="80"
+                  />
+                  <small style="color: darkred"></small>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input
+                    id="email"
+                    placeholder="Email*"
+                    class="form-control"
+                    autocomplete="off"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    data-trigger="manual"
+                    name="Contact[email]"
+                    type="text"
+                    maxlength="100"
+                  />
+                  <small style="color: darkred"></small>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    class="form-control"
+                    rows="4"
+                    placeholder="Write your message to Us*"
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    data-trigger="manual"
+                    name="Contact[message]"
+                  ></textarea>
+                  <small style="color: darkred"></small>
+                </div>
+
+                <div class="form-group">
+                  <div
+                    class="g-recaptcha"
+                    data-sitekey="6Ldh0RUUAAAAAJ7qsmsDKSRoUYLkuO3wncIInsDQ"
+                  >
+                    <div style="width: 304px; height: 78px">
+                      <div>
+                        <iframe
+                          title="reCAPTCHA"
+                          src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ldh0RUUAAAAAJ7qsmsDKSRoUYLkuO3wncIInsDQ&amp;co=aHR0cHM6Ly93d3cuY2xpY2thZHUuY29tOjQ0Mw..&amp;hl=en&amp;v=Nh10qRQB5k2ucc5SCBLAQ4nA&amp;size=normal&amp;cb=7oqeplualmhn"
+                          width="304"
+                          height="78"
+                          role="presentation"
+                          name="a-npvipxll9pk0"
+                          frameborder="0"
+                          scrolling="no"
+                          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                        ></iframe>
+                      </div>
+                      <textarea
+                        id="g-recaptcha-response"
+                        name="g-recaptcha-response"
+                        class="g-recaptcha-response"
+                        style="
+                          width: 250px;
+                          height: 40px;
+                          border: 1px solid rgb(193, 193, 193);
+                          margin: 10px 25px;
+                          padding: 0px;
+                          resize: none;
+                          display: none;
+                        "
+                      ></textarea>
+                    </div>
+                    <iframe style="display: none"></iframe>
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-default btn-ckd-action send-message-button"
+                >
+                  <picture>
+                    <source srcset="images/contact-message.webp" />
+                    <img srcset="images/contact-message.png" alt="" />
+                  </picture>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-content s-contact">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1"
+            >
+              <h4>Company contacts:</h4>
+              <p>
+                <img src="images/email.svg" height="20px" width="20px" />
+                <a href="#">support@example.com</a>
+              </p>
+              <p>
+                <img
+                  src="images/Telegram_logo.svg"
+                  height="20px"
+                  width="20px"
+                />
+                <a href="#">@example</a>
+              </p>
+              <p>
+                Clickadu s.r.o.<br />
+                Zenklova 32/28, Praha 8 - Libeň, 180 00<br />
+                Czech Republic
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Section 3-->
+
+      <script src="//www.google.com/recaptcha/api.js"></script>
+    </div>
+
+    <div class="b-footer">
+      <div class="container"></div>
+      <div class="container b-footer__mobile">
+        <div class="col-md-7 col-sm-12">
+          <ul class="b-footer__nav hidden-sm hidden-xs">
+            <li><a href="advertisers.html">Advertiser</a></li>
+            <li><a href="publishers.html">Publisher</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li>
+              <a href="./faq.html" rel="noopener noreferrer">FAQ</a>
+            </li>
+            <li><a href="#">Guidelines</a></li>
+            <li>
+              <a href="#" rel="noopener noreferrer">KYC</a>
+            </li>
+          </ul>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-3">
+              <div class="b-footer__copy">
+                <a href="#" title="">Terms&amp;Conditions</a>,
+                <a href="#" title="">Privacy Policy</a>,
+                <a href="#" title="">Cookies Policy</a>, &amp;
+                <a href="#" title="" rel="noopener noreferrer"
+                  >Cancellation policy</a
+                >
+                <div class="low-step-bottom hidden-md hidden-lg">
+                  Please visit
+                  <a href="#" rel="noopener noreferrer">CommerceGate</a>, our
+                  authorized sales agent.
+                </div>
+                <div>
+                  The address for cardholder correspondence:
+                  <a href="#">support@example.com</a>
+                </div>
+                <span class="hidden-lg hidden-md"
+                  ><br />Copyright © Clickadu
+                  <span class="year">2023</span></span
+                >
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 step-bottom">
+              <span style="font-size: 12px">Address: </span><br />
+              <span>Clickadu s.r.o.</span><br />
+              <span style="font-size: 12px"
+                >Zenklova 32/28, Praha 8 - Libeň, 180 00</span
+              ><br />
+              <span style="font-size: 12px">Czech Republic</span> <br />
+              <span style="font-size: 12px">Tax ID number 04066260</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-1 hidden-sm hidden-xs">
+          <div class="card-icons">
+            <div class="card-icons__box logo-visa"></div>
+            <div class="card-icons__box logo-visa_secure">
+              <a
+                class="logo-visa_secure__link"
+                rel="noopener noreferrer"
+                href="https://usa.visa.com/pay-with-visa/featured-technologies/verified-by-visa.html"
+              ></a>
+            </div>
+            <div class="card-icons__box logo-visa_electron"></div>
+            <div class="card-icons__box logo-ep"></div>
+            <div class="card-icons__box logo-mc"></div>
+            <div class="card-icons__box logo-ms"></div>
+            <div class="card-icons__box logo-mc_idcheck"></div>
+            <div class="card-icons__box logo-paxum"></div>
+            <div class="card-icons__box logo-paypal"></div>
+            <div class="card-icons__box logo-webmoney"></div>
+          </div>
+          <div class="b-footer__copy">
+            <div class="low-step-bottom hidden-sm hidden-xs">
+              Please visit
+              <a href="https://www.commercegate.com/" rel="noopener noreferrer"
+                >CommerceGate</a
+              >, our authorized sales agent.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12 b-footer__social">
+          <p class="text-center">Stay updated</p>
+          <a
+            rel="noopener noreferrer"
+            href="https://twitter.com/clickaduads"
+            title=""
+            class="b-footer__social__btn tw"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 30 30"
+              style="enable-background: new 0 0 30 30"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .twitter_st0 {
+                  fill: #55acee;
+                }
+                .twitter_st1 {
+                  fill: #f1f2f2;
+                }
+              </style>
+              <g id="twitter_2_">
+                <circle class="twitter_st0" cx="15" cy="15" r="14.5"></circle>
+              </g>
+              <g id="twitter_1_">
+                <g>
+                  <path
+                    class="twitter_st1"
+                    d="M23.88176,10.92073c-0.62138,0.27554-1.28979,0.4619-1.99078,0.54513
+			c0.71572-0.42881,1.26498-1.10731,1.52423-1.91712c-0.66971,0.39728-1.4118,0.68548-2.20093,0.84082
+			c-0.63223-0.67333-1.53302-1.09413-2.53048-1.09413c-1.91376,0-3.46591,1.55215-3.46591,3.46591
+			c0,0.27166,0.03076,0.53608,0.09021,0.7899c-2.88046-0.14449-5.43446-1.52423-7.14402-3.62177
+			c-0.29828,0.51178-0.46939,1.10757-0.46939,1.74265c0,1.20217,0.61233,2.26348,1.54181,2.88485
+			c-0.56787-0.01783-1.10266-0.1737-1.56973-0.43398c-0.00026,0.01473-0.00026,0.02947-0.00026,0.04394
+			c0,1.67932,1.19519,3.08,2.78043,3.39819c-0.29053,0.07961-0.59734,0.12174-0.91294,0.12174
+			c-0.22384,0-0.4407-0.02145-0.65214-0.06178c0.44096,1.37665,1.72068,2.37876,3.23767,2.40693
+			c-1.18641,0.92974-2.68066,1.48365-4.30492,1.48365c-0.27915,0-0.55572-0.01628-0.82635-0.04859
+			c1.53302,0.98376,3.35528,1.55732,5.31246,1.55732c6.37506,0,9.86139-5.28119,9.86139-9.86164
+			c0-0.15018-0.00336-0.29983-0.01008-0.4482C22.82976,12.22603,23.41728,11.61577,23.88176,10.92073L23.88176,10.92073z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/clickadu"
+            title=""
+            class="b-footer__social__btn in"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 30 30"
+              style="enable-background: new 0 0 30 30"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .linkedin_st0 {
+                  fill: #007ab9;
+                }
+                .linkedin_st1 {
+                  fill: #f1f2f2;
+                }
+              </style>
+              <g id="linkedin_1_">
+                <circle class="linkedin_st0" cx="15" cy="15" r="14.5"></circle>
+              </g>
+              <g id="linkedin">
+                <g>
+                  <path
+                    class="linkedin_st1"
+                    d="M23.66361,16.16676v5.97804H20.1977v-5.5774c0-1.40042-0.50041-2.35679-1.75531-2.35679
+			c-0.95765,0-1.52656,0.64386-1.7778,1.26731c-0.09124,0.22281-0.11476,0.5322-0.11476,0.8447v5.82192h-3.46617
+			c0,0,0.04653-9.44627,0-10.42409h3.46642v1.47719c-0.00698,0.01163-0.0168,0.023-0.023,0.03412h0.023v-0.03412
+			c0.46061-0.70874,1.28204-1.72197,3.12369-1.72197C21.95404,11.47568,23.66361,12.96553,23.66361,16.16676L23.66361,16.16676z
+			 M9.45775,6.69568c-1.18563,0-1.96132,0.77827-1.96132,1.8008c0,1.00082,0.7532,1.80158,1.91583,1.80158h0.02249
+			c1.20889,0,1.96054-0.80076,1.96054-1.80158C11.37229,7.47395,10.64364,6.69568,9.45775,6.69568L9.45775,6.69568z
+			 M7.70244,22.1448h3.46487V11.72045H7.70244V22.1448z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/clickadu/"
+            title=""
+            class="b-footer__social__btn instagram"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 30 30"
+              style="enable-background: new 0 0 30 30"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .instagram_st0 {
+                  fill: url(#INSTA_1_);
+                }
+                .instagram_st1 {
+                  fill: #ffffff;
+                }
+              </style>
+              <g id="instagram_1_">
+                <g id="Background_1_">
+                  <radialGradient
+                    id="INSTA_1_"
+                    cx="-4797.37256"
+                    cy="1948.94409"
+                    r="38.76739"
+                    gradientTransform="matrix(0.0566 -1.08 -0.918 -0.04811 2061.70776 -5060.56006)"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop offset="0" style="stop-color: #fed576"></stop>
+                    <stop offset="0.2634" style="stop-color: #f47133"></stop>
+                    <stop offset="0.6091" style="stop-color: #bc3081"></stop>
+                    <stop offset="1" style="stop-color: #4c63d2"></stop>
+                  </radialGradient>
+                  <path
+                    class="instagram_st0"
+                    d="M0.5,14.62356v0.78164c0.20391,7.49922,6.2418,13.52012,13.42949,14.08652h2.20898
+			C23.36582,28.91965,29.30176,22.84778,29.5,15.39387v-0.77031C29.30176,7.03938,23.16191,0.88821,15.75898,0.50871
+			C7.79531,0.10657,0.7209,6.49563,0.5,14.62356z"
+                  ></path>
+                </g>
+              </g>
+              <g id="instagram">
+                <g id="Symbol">
+                  <g>
+                    <path
+                      class="instagram_st1"
+                      d="M15.06797,7.77571c2.31094,0,2.58281,0.00566,3.50039,0.05098
+				c0.84394,0.03398,1.29707,0.18125,1.60293,0.3002c0.40215,0.15859,0.69102,0.35117,0.99121,0.65703
+				c0.3002,0.30586,0.49277,0.60039,0.65137,1.0082c0.11895,0.31152,0.25488,0.77598,0.3002,1.63691
+				c0.04531,0.92891,0.05098,1.20645,0.05098,3.55703s-0.00566,2.62812-0.05098,3.55703
+				c-0.03399,0.85527-0.17559,1.32539-0.3002,1.63691c-0.15859,0.40781-0.34551,0.70234-0.65137,1.0082
+				c-0.30019,0.30586-0.58906,0.49844-0.99121,0.65703c-0.30586,0.12461-0.76465,0.26621-1.60293,0.3002
+				c-0.91191,0.04531-1.18945,0.05098-3.50039,0.05098s-2.58281-0.00566-3.50039-0.05098
+				c-0.84394-0.03399-1.29707-0.18125-1.60293-0.3002c-0.40215-0.15859-0.69102-0.35117-0.99121-0.65703
+				c-0.3002-0.30586-0.49277-0.60039-0.65137-1.0082c-0.11895-0.31152-0.25488-0.77598-0.3002-1.63691
+				c-0.04532-0.92891-0.05098-1.20645-0.05098-3.55703s0.00566-2.62813,0.05098-3.55703
+				c0.03398-0.85527,0.17559-1.32539,0.3002-1.63691c0.15859-0.40781,0.34551-0.70234,0.65137-1.0082
+				C9.27363,8.47805,9.5625,8.28547,9.96465,8.12688c0.30586-0.12461,0.76465-0.26621,1.60293-0.3002
+				C12.47949,7.78703,12.75703,7.77571,15.06797,7.77571 M15.06797,6.18977c-2.35059,0-2.64512,0.01133-3.56269,0.05664
+				C10.5877,6.29172,9.95332,6.43899,9.40391,6.65422c-0.57207,0.22656-1.05352,0.52676-1.5293,1.01953
+				C7.39316,8.16653,7.09863,8.65364,6.87774,9.23703c-0.21523,0.55508-0.3625,1.20078-0.40215,2.13535
+				c-0.04531,0.93457-0.05098,1.23477-0.05098,3.625s0.01133,2.69043,0.05098,3.625
+				c0.04531,0.93457,0.19258,1.57461,0.40215,2.13535c0.2209,0.57773,0.51543,1.07051,0.99687,1.56328
+				c0.48145,0.49277,0.96289,0.79297,1.5293,1.01953c0.54941,0.2209,1.18379,0.36816,2.10137,0.40781
+				c0.92324,0.04531,1.21777,0.05664,3.56269,0.05664s2.64512-0.01133,3.5627-0.05664
+				c0.91758-0.04531,1.55195-0.19258,2.10137-0.40781c0.57207-0.22656,1.05351-0.52676,1.5293-1.01953
+				c0.48145-0.49277,0.77598-0.97988,0.99687-1.56328c0.21523-0.55508,0.3625-1.20078,0.40215-2.13535
+				c0.04531-0.93457,0.05098-1.23476,0.05098-3.625s-0.01133-2.69043-0.05098-3.625
+				c-0.04531-0.93457-0.19258-1.57461-0.40215-2.13535c-0.2209-0.57773-0.51543-1.07051-0.99687-1.56328
+				s-0.96289-0.79297-1.5293-1.01953c-0.54942-0.2209-1.18379-0.36816-2.10137-0.40781
+				C17.71309,6.2011,17.41289,6.18977,15.06797,6.18977L15.06797,6.18977z"
+                    ></path>
+                    <path
+                      class="instagram_st1"
+                      d="M15.06797,10.4718c-2.4582,0-4.44062,2.02207-4.44062,4.51992s1.98809,4.51992,4.44062,4.51992
+				s4.44063-2.02207,4.44063-4.51992S17.52051,10.4718,15.06797,10.4718z M15.06797,17.92571
+				c-1.5916,0-2.88301-1.3084-2.88301-2.93399s1.29141-2.93398,2.88301-2.93398c1.5916,0,2.88301,1.3084,2.88301,2.93398
+				C17.95098,16.61731,16.65957,17.92571,15.06797,17.92571z"
+                    ></path>
+                    <ellipse
+                      class="instagram_st1"
+                      cx="19.68418"
+                      cy="10.29055"
+                      rx="1.03652"
+                      ry="1.05352"
+                    ></ellipse>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/clickadu/"
+            title=""
+            class="b-footer__social__btn fb"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 30 30"
+              style="enable-background: new 0 0 30 30"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .facebook_st0 {
+                  fill: #3b5998;
+                }
+                .facebook_st1 {
+                  fill: #ffffff;
+                }
+              </style>
+              <g id="facebook_1_">
+                <ellipse
+                  id="Ellipse_1"
+                  class="facebook_st0"
+                  cx="15"
+                  cy="14.96402"
+                  rx="14.5"
+                  ry="14.46568"
+                ></ellipse>
+              </g>
+              <g id="facebook">
+                <path
+                  id="Path_1"
+                  class="facebook_st1"
+                  d="M16.35333,29.36567V18.50034h3.22214v-3.21417h-3.22214c0,0-0.22548-2.41087,0.83785-3.47178
+		c1.06334-1.06092,3.28666-0.83568,3.28666-0.83568V7.37787c0,0-4.30166-0.41784-6.25119,1.60733s-1.80453,6.30073-1.80453,6.30073
+		h-2.9v3.21417h2.9v10.73677c0.6801,0.13645,1.36936,0.22239,2.06214,0.25713
+		C15.10994,29.50996,15.73572,29.46699,16.35333,29.36567z"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://t.me/affiliateconfEng"
+            title=""
+            class="b-footer__social__btn vk"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 30 30"
+              style="enable-background: new 0 0 30 30"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .telegram_st0 {
+                  fill: #139bd0;
+                }
+                .telegram_st1 {
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  fill: #ffffff;
+                }
+              </style>
+              <g id="telegram_3_">
+                <circle
+                  id="telegram_1_"
+                  class="telegram_st0"
+                  cx="15"
+                  cy="15.00006"
+                  r="14.5"
+                ></circle>
+              </g>
+              <g id="telegram_2_">
+                <path
+                  id="telegram"
+                  class="telegram_st1"
+                  d="M14.09674,18.46524c-0.55841,0.54391-1.11199,1.0788-1.66041,1.61788
+		c-0.19172,0.18882-0.40729,0.29322-0.68247,0.27872c-0.18786-0.00999-0.2929-0.09248-0.35058-0.27067
+		c-0.42018-1.30403-0.84648-2.60484-1.2644-3.91017c-0.0406-0.12663-0.10053-0.18818-0.22878-0.22781
+		c-0.98987-0.30224-1.9778-0.61158-2.96412-0.9251c-0.15177-0.04833-0.30482-0.11149-0.43597-0.20074
+		c-0.20268-0.13727-0.23232-0.36121-0.05059-0.52232c0.16788-0.14854,0.3683-0.27808,0.57646-0.36057
+		c1.20994-0.47947,2.42633-0.94347,3.64079-1.41166c3.08206-1.18997,6.16411-2.37897,9.24649-3.56893
+		c0.58612-0.22652,1.03659,0.09248,0.97569,0.72629c-0.03899,0.40536-0.14403,0.80427-0.22878,1.20447
+		c-0.66926,3.16003-1.33916,6.32039-2.01196,9.47978c-0.15982,0.75013-0.68666,0.94604-1.30404,0.49075
+		c-1.03401-0.76206-2.06705-1.52669-3.10042-2.29003C14.20436,18.53935,14.15313,18.50487,14.09674,18.46524z M11.77577,19.42482
+		c0.0116-0.00322,0.0232-0.00644,0.0348-0.00934c0.00644-0.02964,0.01579-0.05864,0.01837-0.08797
+		c0.06638-0.7163,0.13662-1.43228,0.1943-2.14987c0.01289-0.15982,0.06767-0.27324,0.18786-0.38087
+		c0.95313-0.85228,1.90047-1.71003,2.84973-2.56586c1.05077-0.94766,2.10186-1.89435,3.14876-2.84587
+		c0.06476-0.05864,0.09183-0.15853,0.1363-0.23973c-0.0986-0.01063-0.20429-0.05027-0.29387-0.02707
+		c-0.12212,0.03158-0.2378,0.10247-0.34671,0.1711c-2.31903,1.46063-4.63613,2.92385-6.95678,4.38158
+		c-0.13114,0.08249-0.15563,0.15241-0.10569,0.29644c0.1711,0.49139,0.32673,0.98729,0.48817,1.48222
+		C11.34593,18.10822,11.56085,18.76652,11.77577,19.42482z"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/c/Clickadu/"
+            title=""
+            class="b-footer__social__btn vk"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 30 30"
+              style="enable-background: new 0 0 30 30"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .youtube_st0 {
+                  fill: url(#SVGIDY_1_);
+                }
+                .youtube_st1 {
+                  fill: #ffffff;
+                }
+                .youtube_st2 {
+                  fill: url(#SVGID_2_);
+                }
+              </style>
+              <g id="youtube_2_">
+                <linearGradient
+                  id="SVGIDY_1_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="2.37893"
+                  y1="27.62111"
+                  x2="26.45232"
+                  y2="3.54772"
+                >
+                  <stop offset="0" style="stop-color: #dd272d"></stop>
+                  <stop offset="0.5153" style="stop-color: #ca2429"></stop>
+                  <stop offset="1" style="stop-color: #b22025"></stop>
+                </linearGradient>
+                <circle
+                  class="youtube_st0"
+                  cx="14.99999"
+                  cy="15.00005"
+                  r="14.5"
+                ></circle>
+              </g>
+              <g id="youtube_1_">
+                <path
+                  class="youtube_st1"
+                  d="M23.87521,15.71584c0,1.53254-0.17756,3.06455-0.17756,3.06455s-0.17366,1.30505-0.70524,1.87881
+		c-0.6753,0.75354-1.43158,0.75797-1.77838,0.80236c-2.48415,0.19032-6.21404,0.19696-6.21404,0.19696
+		s-4.61544-0.04492-6.03537-0.19032c-0.39509-0.07882-1.28122-0.05604-1.95705-0.80958
+		c-0.53211-0.57376-0.70525-1.87881-0.70525-1.87881s-0.17756-1.53149-0.17756-3.06455v-1.43601
+		c0-1.53201,0.17756-3.06403,0.17756-3.06403s0.17366-1.30563,0.70525-1.88044C7.6834,8.58124,8.43916,8.57682,8.78595,8.53411
+		c2.48362-0.19253,6.20961-0.19253,6.20961-0.19253h0.00833c0,0,3.72599,0,6.21013,0.19253
+		c0.3468,0.0427,1.10308,0.04719,1.77838,0.80067c0.53211,0.57487,0.70524,1.88044,0.70524,1.88044s0.17756,1.53201,0.17756,3.06455
+		L23.87521,15.71584L23.87521,15.71584z"
+                ></path>
+              </g>
+              <g id="youtube">
+                <linearGradient
+                  id="SVGID_2_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="1.82544"
+                  y1="28.07546"
+                  x2="25.89883"
+                  y2="4.00207"
+                  gradientTransform="matrix(1 0 0 -1 0 31.00794)"
+                >
+                  <stop offset="0" style="stop-color: #dd272d"></stop>
+                  <stop offset="0.5153" style="stop-color: #ca2429"></stop>
+                  <stop offset="1" style="stop-color: #b22025"></stop>
+                </linearGradient>
+                <polygon
+                  class="youtube_st2"
+                  points="12.7833,18.32932 18.33199,15.00005 12.7833,11.67079 	"
+                ></polygon>
+              </g>
+            </svg>
+          </a>
+          <p class="hidden-sm hidden-xs">
+            <br />Copyright © Clickadu <span class="year">2023</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-toggle-menu">
+      <ul class="b-header__nav mobile-menu">
+        <li><a href="#">Advertiser</a></li>
+        <li><a href="#">Publisher</a></li>
+        <li>
+          <a rel="noopener noreferrer" href="">Media kit</a>
+        </li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="#">Guidelines</a></li>
+        <li class="top-line">
+          <a
+            href="./registration.html"
+            class="b-toggle-menu-item dropdown-toggle"
+            >REGISTER</a
+          >
+        </li>
+        <li class="top-line">
+          <a class="b-toggle-menu-item" href="./publishers.html"
+            >sign in as Publisher</a
+          >
+        </li>
+        <li>
+          <a class="b-toggle-menu-item" href="./advertiser_signin.html"
+            >sign in as Advertiser</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- begin of popup -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
+      data-cfasync="false"
+    ></script>
+    <script>
+      window.cookieconsent.initialise({
+        palette: {
+          popup: {
+            background: "#31c0f9",
+            text: "#ffffff",
+          },
+          button: {
+            background: "#0aa9e3",
+            text: "#ffffff",
+          },
+        },
+        theme: "edgeless",
+        position: "bottom-left",
+        content: {
+          href: "https://www.clickadu.com/cookies",
+        },
+      });
+    </script>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      defer=""
+      src="/startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"
+    ></script>
+    <script defer="" src="/startup/flat-ui/js/bootstrap-select.js"></script>
+    <script defer="" src="/startup/flat-ui/js/flatui-radio.js"></script>
+    <script defer="" src="js/slick.min.js"></script>
+    <script defer="" src="js/clickadu.jquery.js?ver=1.2"></script>
+    <script defer="" src="/contest/js/wow.min.js?ver=1"></script>
+
+    <!-- banner-marketing -->
+    <div class="banner-marketing">
+      <div class="deadly">
+        <div class="bg-box">
+          <div class="banner-marketing-text">Special Invitation</div>
+          <div class="sm-icon">
+            <svg
+              fill="#fff"
+              width="40px"
+              height="40px"
+              version="1.1"
+              id="tg_x5F_offer"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 45 45"
+              style="enable-background: new 0 0 45 45"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .tg_offer_st0 {
+                  fill: 0;
+                }
+              </style>
+              <g id="tg_x5F_offer_1_">
+                <path
+                  class="tg_offer_st0"
+                  d="M35.30566,25.25781c-0.73633,0.04297-1.42188,0.39844-1.88086,0.97559l-2.94141,3.70508
+		c-1.42578-1.34277-3.40918-1.58691-4.96191-1.15332c-1.00879,0.28223-4.21143-0.13965-6.99414-1.11914
+		c-2.55048-0.89691-5.9281,1.57422-7.42468,2.83289c-0.88995-0.93335-2.33203-1.18304-3.49915-0.5116L6.63818,30.5459
+		c-0.66211,0.38184-1.13623,0.99902-1.33447,1.7373c-0.19775,0.73926-0.09619,1.51074,0.28613,2.17285l4.55664,7.8916
+		c0.52979,0.91797,1.49414,1.43066,2.48389,1.43066c0.48486,0,0.97607-0.12305,1.42578-0.38281l0.96631-0.55762
+		c0.6626-0.38281,1.13623-1,1.33398-1.73828c0.10687-0.39899,0.11902-0.80634,0.05396-1.20215h9.98511
+		c3.96289,0,8.75195-6.69043,11.25391-10.67871c0.64453-1.0293,0.49512-2.34766-0.36426-3.20605
+		C36.76465,25.49219,36.04297,25.23242,35.30566,25.25781z M14.42432,40.58203c-0.05957,0.22266-0.20215,0.4082-0.40186,0.52344
+		l-0.9668,0.55762c-0.41113,0.23828-0.93945,0.09668-1.17725-0.31543l-4.55664-7.8916
+		c-0.11523-0.2002-0.14551-0.43262-0.08594-0.6543c0.05957-0.22266,0.20215-0.4082,0.40234-0.52344l0.96533-0.55859
+		c0.13574-0.07813,0.28369-0.11523,0.42969-0.11523c0.29883,0,0.58936,0.1543,0.74854,0.43066l4.55664,7.89258
+		C14.45361,40.12695,14.48389,40.35938,14.42432,40.58203z M35.95508,28.15625c-3.76953,6.00879-7.43262,9.74121-9.55957,9.74121
+		H15.47552l-3.28796-5.69507c1.48248-1.27985,4.23047-3.16357,5.67572-2.64966c2.67871,0.94238,6.47656,1.63281,8.19238,1.16016
+		c0.77271-0.21478,2.20642-0.23547,3.19537,0.82434l-0.15143,0.20593c-0.98828,1.15137-2.10254,1.37695-3.69141,1.37695h-4.34961v2
+		h4.34961c1.67938,0,3.43085-0.24127,4.97522-1.84467l0.00232,0.00385l0.02692-0.03387
+		c0.08289-0.08716,0.16785-0.16083,0.24945-0.25616l0.62488-0.84528l3.70422-4.66644
+		c0.14355-0.18066,0.33008-0.2168,0.42871-0.22266c0.1084-0.01172,0.28906,0.00977,0.45117,0.17188
+		C36.06641,27.62207,36.10059,27.92285,35.95508,28.15625z"
+                ></path>
+                <path
+                  class="tg_offer_st0"
+                  d="M24.99414,1.71436c-8.36133,0-15.16406,6.80225-15.16406,15.16357c0,3.70166,1.34863,7.2666,3.79785,10.03809
+		l1.49902-1.32422c-2.12598-2.40576-3.29688-5.50049-3.29688-8.71387c0-7.2583,5.90527-13.16357,13.16406-13.16357
+		c7.25781,0,13.16309,5.90527,13.16309,13.16357c0,2.14697-0.5,4.19336-1.48535,6.08203l1.77344,0.9248
+		c1.12012-2.146,1.71191-4.56934,1.71191-7.00684C40.15723,8.5166,33.35547,1.71436,24.99414,1.71436z"
+                ></path>
+                <circle
+                  class="tg_offer_st0"
+                  cx="12.67511"
+                  cy="39.88733"
+                  r="0.87317"
+                ></circle>
+                <path
+                  class="tg_offer_st0"
+                  d="M22.36621,18.67084l-0.25903,3.6731c0.37109,0,0.53223-0.16113,0.72473-0.3537l1.74017-1.67371
+		l3.60645,2.65765c0.6618,0.37103,1.1275,0.17499,1.30609-0.61279l2.36694-11.1626c0.21008-0.98395-0.3537-1.36902-0.99786-1.12744
+		l-13.91467,5.36066c-0.94885,0.37115-0.93488,0.90338-0.16107,1.14496l3.5575,1.11346l8.26331-5.20313
+		c0.38867-0.25909,0.74231-0.11554,0.45172,0.14355L22.36621,18.67084z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <link
+        rel="stylesheet"
+        href="css/marketing_banner.css"
+        as="style"
+        onload="this.rel='stylesheet'"
+      />
+
+      <div class="marketing-content">
+        <p>
+          Don't miss
+          <b>the latest affiliate marketing conferences news and announces</b>
+          to meet our team
+        </p>
+        <a
+          class="sign-up-btn"
+          rel="noopener noreferrer"
+          href="https://t.me/affiliateconfEng"
+          >Join our Telegram</a
+        >
+        <div class="close-buttons">
+          <button
+            class="close-mb hidden-xs"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            Close
+          </button>
+          <span class="hidden-xs">|</span>
+          <button
+            class="close-mb-forever"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            Close forever
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="hidden-lg hidden-md hidden-sm mobile-banner-button"
+      type="button"
+      data-toggle="modal"
+      data-target="#marketing-modal"
+    >
+      <svg
+        width="60px"
+        height="60px"
+        version="1.1"
+        id="tg_x5F_offer"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 45 45"
+        style="enable-background: new 0 0 45 45"
+        xml:space="preserve"
+      >
+        <style type="text/css">
+          .tg_offer_mobile_st0 {
+            fill: #2ea8df;
+          }
+          .tg_offer_mobile_st1 {
+            fill: #ffffff;
+          }
+        </style>
+        <path
+          class="tg_offer_mobile_st0"
+          d="M22.50004,0.40331c-12.20369,0-22.09673,9.89304-22.09673,22.09665
+	c0,12.20369,9.89304,22.09673,22.09673,22.09673h22.09664V22.49996C44.59669,10.29635,34.70364,0.40331,22.50004,0.40331z"
+        ></path>
+        <g>
+          <path
+            class="tg_offer_mobile_st1"
+            d="M32.26855,24.49219c-0.50098,0.02832-0.9668,0.27051-1.27832,0.66309l-2.39063,3.01172
+		c-1.03809-1.1123-2.56543-1.32422-3.74414-0.99414c-0.88281,0.24512-3.48535-0.16309-5.45752-0.85645
+		c-1.93066-0.68323-4.56854,1.35486-5.59344,2.24127l-0.23517-0.40729c-0.16406-0.28418-0.4292-0.48828-0.74658-0.57324
+		c-0.31787-0.08496-0.65039-0.04102-0.93457,0.12305L9.87354,28.8623c-0.28467,0.16504-0.48828,0.42969-0.57324,0.74805
+		c-0.08496,0.31738-0.0415,0.64941,0.12305,0.93359l4.21045,7.29297c0.22803,0.39453,0.64258,0.61523,1.06836,0.61523
+		c0.2085,0,0.41992-0.05273,0.61279-0.16406l2.01465-1.16309h0.00049c0.58691-0.33984,0.78906-1.09375,0.4502-1.68164
+		l-0.12689-0.21973h7.81146c2.91895,0,6.51367-5.03711,8.39648-8.03906c0.43945-0.69824,0.33789-1.59473-0.24609-2.17969
+		C33.26074,24.64941,32.76465,24.45898,32.26855,24.49219z M16.78027,36.17383l-2.01367,1.16309
+		c-0.06348,0.03418-0.14551,0.01367-0.18164-0.04883l-4.21045-7.29297c-0.03125-0.05469-0.00537-0.15039,0.04834-0.18164
+		l2.01465-1.16211c0.02344-0.01367,0.0459-0.01855,0.06592-0.01855c0.01318,0,0.0249,0.00195,0.03467,0.00488
+		c0.02441,0.00684,0.05762,0.02246,0.08008,0.06152l4.21094,7.29297C16.86572,36.05566,16.84375,36.1377,16.78027,36.17383z
+		 M32.93164,26.60059c-2.28125,3.6377-5.44141,7.52539-7.4668,7.52539h-8.44525l-2.65509-4.59845
+		c0.98676-0.87402,3.35785-2.63434,4.6687-2.17596c1.96924,0.69238,4.86621,1.22363,6.11621,0.87988
+		c0.66718-0.18561,1.93689-0.1828,2.75726,0.83221l-0.21918,0.29767c-0.80664,0.93945-1.70117,1.12402-2.97461,1.12402h-3.31494
+		v1.09766h3.31494c1.30566,0,2.67188-0.18262,3.83301-1.53809l0.46893-0.63501l2.83478-3.57202
+		c0.11914-0.14941,0.29102-0.23828,0.48145-0.24902c0.18848-0.01172,0.37109,0.05664,0.50684,0.19336
+		C33.05762,26.00195,33.09668,26.33789,32.93164,26.60059z"
+          ></path>
+          <path
+            class="tg_offer_mobile_st1"
+            d="M24.39746,6.54736c-6.25586,0-11.34521,5.08936-11.34521,11.34473c0,2.76904,1.00928,5.43604,2.8418,7.50928
+		l0.82324-0.72656c-1.65527-1.87305-2.56641-4.28174-2.56641-6.78271c0-5.6499,4.59668-10.24609,10.24658-10.24609
+		c5.64941,0,10.24609,4.59619,10.24609,10.24609c0,1.64697-0.40039,3.28369-1.15723,4.73389l0.97461,0.50781
+		c0.83789-1.60596,1.28027-3.41846,1.28027-5.2417C35.74121,11.63672,30.65234,6.54736,24.39746,6.54736z"
+          ></path>
+          <path
+            class="tg_offer_mobile_st1"
+            d="M15.00793,34.76392c-0.36755,0-0.66553,0.29797-0.66553,0.66553c0,0.36749,0.29797,0.66547,0.66553,0.66547
+		s0.66553-0.29797,0.66553-0.66547C15.67346,35.06189,15.37549,34.76392,15.00793,34.76392z"
+          ></path>
+          <path
+            class="tg_offer_mobile_st1"
+            d="M22.39441,19.25842l-0.19745,2.79956c0.28284,0,0.40564-0.12274,0.55243-0.26953l1.32629-1.2757
+		l2.74878,2.02563c0.50446,0.28284,0.85938,0.13342,0.99548-0.4671l1.80408-8.508c0.16016-0.74994-0.26959-1.04346-0.76056-0.85931
+		l-10.60559,4.08588c-0.72321,0.28284-0.71259,0.68854-0.12274,0.87268l2.71143,0.84863l6.29822-3.96576
+		c0.29626-0.19751,0.5658-0.08807,0.34424,0.10944L22.39441,19.25842z"
+          ></path>
+        </g>
+      </svg>
+    </div>
+
+    <div
+      class="modal fade"
+      id="marketing-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close elastic-close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">×</span>
+          </button>
+
+          <div class="modal-body" style="padding: 0">
+            <link
+              rel="stylesheet"
+              href="css/marketing_banner.css"
+              as="style"
+              onload="this.rel='stylesheet'"
+            />
+
+            <div class="marketing-content">
+              <p>
+                Don't miss
+                <b
+                  >the latest affiliate marketing conferences news and
+                  announces</b
+                >
+                to meet our team
+              </p>
+              <a
+                class="sign-up-btn"
+                rel="noopener noreferrer"
+                href="https://t.me/affiliateconfEng"
+                >Join our Telegram</a
+              >
+              <div class="close-buttons">
+                <button
+                  class="close-mb hidden-xs"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  Close
+                </button>
+                <span class="hidden-xs">|</span>
+                <button
+                  class="close-mb-forever"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  Close forever
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // load css
+      $(document).ready(function () {
+        $("head").append(
+          `<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />`
+        );
+        $("head").append(
+          `<link rel="preload  stylesheet" href="css/slick.css" as="style" onload="this.rel='stylesheet'">`
+        );
+        $("head").append(
+          `<link rel="preload  stylesheet" href="css/slick-theme.css"  as="style" onload="this.rel='stylesheet'">`
+        );
+        $("head").append(
+          `<link rel="preload  stylesheet" href="css/jquery.arcticmodal-0.3.css" as="style" onload="this.rel='stylesheet'"/>`
+        );
+
+        //if search in url has word "blog", add "news" style
+        let currentLocation = window.location.href;
+
+        function addStyle() {
+          let createStyle = document.createElement("link");
+          createStyle.rel = "stylesheet";
+          createStyle.href = "css/news.css?ver=1.00";
+
+          document.querySelector("head").appendChild(createStyle);
+        }
+
+        if (currentLocation.search(/blog/g)) {
+          addStyle();
+        }
+      });
+    </script>
+
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(() => {
+          // Hotjar Tracking Code for www.clickadu.com
+          (function (h, o, t, j, a, r) {
+            h.hj =
+              h.hj ||
+              function () {
+                (h.hj.q = h.hj.q || []).push(arguments);
+              };
+            h._hjSettings = { hjid: 471054, hjsv: 5 };
+            a = o.getElementsByTagName("head")[0];
+            r = o.createElement("script");
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+          })(window, document, "//static.hotjar.com/c/hotjar-", ".js?sv=");
+        }, 2000);
+      });
+
+      let date = new Date().getFullYear();
+      [...document.getElementsByClassName("year")].forEach(function (item) {
+        item.innerHTML = date;
+      });
+    </script>
+
+    <!-- Added lazy download to <picture><source -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        var lazyImages = [].slice.call(
+          document.querySelectorAll(".lazy > source")
+        );
+
+        if ("IntersectionObserver" in window) {
+          let lazyImageObserver = new IntersectionObserver(function (
+            entries,
+            observer
+          ) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                let lazyImage = entry.target;
+                lazyImage.srcset = lazyImage.dataset.srcset;
+                lazyImage.nextElementSibling.srcset = lazyImage.dataset.srcset;
+                lazyImage.nextElementSibling.classList.add("fade-in");
+                lazyImage.parentElement.classList.remove("lazy");
+                lazyImageObserver.unobserve(lazyImage);
+              }
+            });
+          });
+
+          lazyImages.forEach(function (lazyImage) {
+            lazyImageObserver.observe(lazyImage);
+          });
+        } else {
+          // Not supported, load all images immediately
+          lazyImages.forEach(function (image) {
+            image.nextElementSibling.src =
+              image.nextElementSibling.dataset.srcset;
+          });
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      jQuery(function ($) {
+        jQuery('a[rel="tooltip"]').tooltip();
+        jQuery('a[rel="popover"]').popover();
+      });
+      /*]]>*/
+    </script>
+
+    <script type="text/javascript" id="">
+      (function (a, c, e, f, d, b) {
+        a.hj =
+          a.hj ||
+          function () {
+            (a.hj.q = a.hj.q || []).push(arguments);
+          };
+        a._hjSettings = { hjid: 1077042, hjsv: 6 };
+        d = c.getElementsByTagName("head")[0];
+        b = c.createElement("script");
+        b.async = 1;
+        b.src = e + a._hjSettings.hjid + f + a._hjSettings.hjsv;
+        d.appendChild(b);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv\x3d");
+    </script>
+    <script type="text/javascript" id="">
+      !(function (b, e, f, g, a, c, d) {
+        b.fbq ||
+          ((a = b.fbq =
+            function () {
+              a.callMethod
+                ? a.callMethod.apply(a, arguments)
+                : a.queue.push(arguments);
+            }),
+          b._fbq || (b._fbq = a),
+          (a.push = a),
+          (a.loaded = !0),
+          (a.version = "2.0"),
+          (a.queue = []),
+          (c = e.createElement(f)),
+          (c.async = !0),
+          (c.src = g),
+          (d = e.getElementsByTagName(f)[0]),
+          d.parentNode.insertBefore(c, d));
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "799524127653273");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=799524127653273&amp;ev=PageView&amp;noscript=1"
+    /></noscript>
+    <div
+      style="
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(204, 204, 204);
+        box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px;
+        position: absolute;
+        transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 2000000000;
+        left: 0px;
+        top: -10000px;
+      "
+    >
+      <div
+        style="
+          width: 100%;
+          height: 100%;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          z-index: 2000000000;
+          background-color: rgb(255, 255, 255);
+          opacity: 0.05;
+        "
+      ></div>
+      <div
+        class="g-recaptcha-bubble-arrow"
+        style="
+          border: 11px solid transparent;
+          width: 0px;
+          height: 0px;
+          position: absolute;
+          pointer-events: none;
+          margin-top: -11px;
+          z-index: 2000000000;
+        "
+      ></div>
+      <div
+        class="g-recaptcha-bubble-arrow"
+        style="
+          border: 10px solid transparent;
+          width: 0px;
+          height: 0px;
+          position: absolute;
+          pointer-events: none;
+          margin-top: -10px;
+          z-index: 2000000000;
+        "
+      ></div>
+      <div style="z-index: 2000000000; position: relative">
+        <iframe
+          title="recaptcha challenge expires in two minutes"
+          src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=Nh10qRQB5k2ucc5SCBLAQ4nA&amp;k=6Ldh0RUUAAAAAJ7qsmsDKSRoUYLkuO3wncIInsDQ"
+          name="c-npvipxll9pk0"
+          frameborder="0"
+          scrolling="no"
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+          style="width: 100%; height: 100%"
+        ></iframe>
+      </div>
+    </div>
+    <div
+      id="onesignal-bell-container"
+      class="onesignal-bell-container onesignal-reset onesignal-bell-container-bottom-left"
+    >
+      <div
+        id="onesignal-bell-launcher"
+        class="onesignal-bell-launcher onesignal-bell-launcher-md onesignal-bell-launcher-bottom-left onesignal-bell-launcher-theme-default onesignal-bell-launcher-active"
+        style="bottom: 15px; left: 15px"
+      >
+        <div class="onesignal-bell-launcher-button">
+          <svg
+            class="onesignal-bell-svg"
+            xmlns="http://www.w3.org/2000/svg"
+            width="99.7"
+            height="99.7"
+            viewBox="0 0 99.7 99.7"
+            style="
+              filter: drop-shadow(0 2px 4px rgba(34, 36, 38, 0.35));
+              -webkit-filter: drop-shadow(0 2px 4px rgba(34, 36, 38, 0.35)); ;
+            "
+          >
+            <circle
+              class="background"
+              cx="49.9"
+              cy="49.9"
+              r="49.9"
+              style="fill: rgb(0, 173, 226)"
+            ></circle>
+            <path
+              class="foreground"
+              d="M50.1 66.2H27.7s-2-.2-2-2.1c0-1.9 1.7-2 1.7-2s6.7-3.2 6.7-5.5S33 52.7 33 43.3s6-16.6 13.2-16.6c0 0 1-2.4 3.9-2.4 2.8 0 3.8 2.4 3.8 2.4 7.2 0 13.2 7.2 13.2 16.6s-1 11-1 13.3c0 2.3 6.7 5.5 6.7 5.5s1.7.1 1.7 2c0 1.8-2.1 2.1-2.1 2.1H50.1zm-7.2 2.3h14.5s-1 6.3-7.2 6.3-7.3-6.3-7.3-6.3z"
+              style="fill: rgb(255, 255, 255)"
+            ></path>
+            <ellipse
+              class="stroke"
+              cx="49.9"
+              cy="49.9"
+              rx="37.4"
+              ry="36.9"
+              style="stroke: rgb(255, 255, 255)"
+            ></ellipse>
+          </svg>
+        </div>
+        <div
+          class="onesignal-bell-launcher-badge"
+          style="
+            filter: drop-shadow(0 2px 4px rgba(34, 36, 38, 0));
+            -webkit-filter: drop-shadow(0 2px 4px rgba(34, 36, 38, 0)); ;
+          "
+        ></div>
+        <div class="onesignal-bell-launcher-message">
+          <div class="onesignal-bell-launcher-message-body"></div>
+        </div>
+        <div
+          class="onesignal-bell-launcher-dialog"
+          style="
+            filter: drop-shadow(0px 2px 2px rgba(34, 36, 38, 0.15));
+            -webkit-filter: drop-shadow(0px 2px 2px rgba(34, 36, 38, 0.15)); ;
+          "
+        >
+          <div class="onesignal-bell-launcher-dialog-body"></div>
+        </div>
+      </div>
+    </div>
+    <iframe
+      id="_hjSafeContext_1013369"
+      title="_hjSafeContext"
+      tabindex="-1"
+      aria-hidden="true"
+      src="about:blank"
+      style="
+        display: none !important;
+        width: 1px !important;
+        height: 1px !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      "
+    ></iframe
+    ><iframe
+      id="intercom-frame"
+      style="
+        position: absolute !important;
+        opacity: 0 !important;
+        width: 1px !important;
+        height: 1px !important;
+        top: 0 !important;
+        left: 0 !important;
+        border: none !important;
+        display: block !important;
+        z-index: -1 !important;
+        pointer-events: none;
+      "
+      aria-hidden="true"
+      tabindex="-1"
+      title="Intercom"
+    ></iframe>
+  </body>
+</html>

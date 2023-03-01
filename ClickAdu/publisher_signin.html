@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style type="text/css">
+      @charset "UTF-8";
+      [ng\:cloak],
+      [ng-cloak],
+      [data-ng-cloak],
+      [x-ng-cloak],
+      .ng-cloak,
+      .x-ng-cloak,
+      .ng-hide:not(.ng-hide-animate) {
+        display: none !important;
+      }
+      ng\:form {
+        display: block;
+      }
+      .ng-animate-shim {
+        visibility: hidden;
+      }
+      .ng-anchor {
+        position: absolute;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title ng-bind="plCfg.title" class="ng-binding">ClickADu</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700"
+    />
+
+    <link rel="stylesheet" href="css/publisher_signin.css" />
+
+    <script
+      type="text/javascript"
+      async=""
+      src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+    ></script>
+
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PML9M7");
+    </script>
+
+    <script type="text/javascript">
+      (function (f, b) {
+        if (!b.__SV) {
+          var e, g, i, h;
+          window.mixpanel = b;
+          b._i = [];
+          b.init = function (e, f, c) {
+            function g(a, d) {
+              var b = d.split(".");
+              2 == b.length && ((a = a[b[0]]), (d = b[1]));
+              a[d] = function () {
+                a.push([d].concat(Array.prototype.slice.call(arguments, 0)));
+              };
+            }
+            var a = b;
+            "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel");
+            a.people = a.people || [];
+            a.toString = function (a) {
+              var d = "mixpanel";
+              "mixpanel" !== c && (d += "." + c);
+              a || (d += " (stub)");
+              return d;
+            };
+            a.people.toString = function () {
+              return a.toString(1) + ".people (stub)";
+            };
+            i =
+              "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
+                " "
+              );
+            for (h = 0; h < i.length; h++) g(a, i[h]);
+            var j = "set set_once union unset remove delete".split(" ");
+            a.get_group = function () {
+              function b(c) {
+                d[c] = function () {
+                  call2_args = arguments;
+                  call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+                  a.push([e, call2]);
+                };
+              }
+              for (
+                var d = {},
+                  e = ["get_group"].concat(
+                    Array.prototype.slice.call(arguments, 0)
+                  ),
+                  c = 0;
+                c < j.length;
+                c++
+              )
+                b(j[c]);
+              return d;
+            };
+            b._i.push([e, f, c]);
+          };
+          b.__SV = 1.2;
+          e = f.createElement("script");
+          e.type = "text/javascript";
+          e.async = !0;
+          e.src =
+            "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+              ? MIXPANEL_CUSTOM_LIB_URL
+              : "file:" === f.location.protocol &&
+                "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+              ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+              : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+          g = f.getElementsByTagName("script")[0];
+          g.parentNode.insertBefore(e, g);
+        }
+      })(document, window.mixpanel || []);
+    </script>
+
+    <meta
+      http-equiv="origin-trial"
+      content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+  </head>
+
+  <body>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PML9M7"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <div class="spinner ng-hide" ng-hide="!user.initializing"></div>
+    <!-- uiView: page -->
+    <div class="page ng-scope" ui-view="page">
+      <a href="/" class="auth__logo ng-scope"></a>
+      <div class="auth ng-scope">
+        <!-- uiView: auth.action -->
+        <div
+          class="auth__action ng-scope"
+          ui-view="auth.action"
+          autoscroll="false"
+        >
+          <form
+            class="auth-form ng-pristine ng-scope ng-invalid ng-invalid-required ng-invalid-recaptcha"
+            name="loginForm"
+            ng-controller="LoginCtrl"
+            ng-submit="login()"
+            novalidate=""
+          >
+            <div class="auth-form__header">
+              <span class="auth-form__head-active ng-binding">Login</span>
+              <span class="auth-form__head-line"></span>
+              <a
+                class="auth-form__head-url ng-binding"
+                id="loginSingUpLink"
+                ui-sref="auth.signup"
+                ng-bind="i18n.authForm.headerURL"
+                href="./registration.html"
+                >Sign Up</a
+              >
+            </div>
+            <div class="auth-form__body">
+              <div class="auth-form__field">
+                <label class="ng-binding">Username</label>
+                <input
+                  class="auth-form__field__input auth-form__field__input--login ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required"
+                  id="loginUsername"
+                  type="text"
+                  ng-model="t.username"
+                  name="username"
+                  autocapitalize="off"
+                  autocorrect="off"
+                  autocomplete="off"
+                  required=""
+                  placeholder="Enter login or email"
+                  ng-class="{ error : loginForm.username.$invalid &amp;&amp; loginForm.username.$dirty }"
+                />
+                <div
+                  class="has-error ng-binding ng-hide"
+                  ng-show="loginForm.username.$error.required &amp;&amp; loginForm.username.$dirty"
+                  ng-bind="i18n.authForm.errorUserRequired"
+                >
+                  Username is required
+                </div>
+              </div>
+              <div class="auth-form__field">
+                <label class="ng-binding">Password</label>
+                <div
+                  class="password ng-empty ng-invalid ng-invalid-required"
+                  name="password"
+                  placeholder="*******"
+                  required="required"
+                  ng-class="{ error : loginForm.password.$invalid &amp;&amp; loginForm.password.$dirty }"
+                >
+                  <input
+                    class="password__original auth-form__field__input password ng-empty"
+                    type="password"
+                    id="loginPassword"
+                    placeholder="*******"
+                    ng-show="!showPassword"
+                    ng-model="password"
+                    ng-blur="onBlur()"
+                  />
+                  <input
+                    class="password__view auth-form__field__input password ng-empty ng-hide"
+                    type="text"
+                    id="loginPasswordView"
+                    ng-show="showPassword"
+                    ng-model="password"
+                    ng-blur="onBlur()"
+                  />
+                  <button
+                    class="password__show"
+                    id="loginPasswordShowBtn"
+                    type="button"
+                    ng-class="{'password__show_active': showPassword}"
+                    ng-click="showPassword = !showPassword"
+                  ></button>
+                </div>
+                <div
+                  class="has-error ng-binding ng-hide"
+                  ng-show="loginForm.password.$error.required &amp;&amp; loginForm.password.$dirty"
+                  ng-bind="i18n.authForm.errorPassword"
+                >
+                  Enter your password
+                </div>
+              </div>
+              <!-- ngIf: t.captchaLoaded && !t.ipWhitelisted -->
+              <div
+                ng-if="t.captchaLoaded &amp;&amp; !t.ipWhitelisted"
+                vc-recaptcha=""
+                ng-model="t.captchaResponce"
+                on-create="setWidgetId(widgetId)"
+                key="t.plCfg.dev ? '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI' : '6Lfcxi8UAAAAAIefFf-HZlPYbv8_ygq4XbRPXflo'"
+                class="captcha ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-empty"
+              >
+                <div style="width: 304px; height: 78px">
+                  <div>
+                    <iframe
+                      title="reCAPTCHA"
+                      src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfcxi8UAAAAAIefFf-HZlPYbv8_ygq4XbRPXflo&amp;co=aHR0cHM6Ly92Mi5wYW5lbC5jbGlja2FkdS5jb206NDQz&amp;hl=en&amp;v=Nh10qRQB5k2ucc5SCBLAQ4nA&amp;size=normal&amp;cb=l7awzb9jo78y"
+                      width="304"
+                      height="78"
+                      role="presentation"
+                      name="a-o3v8nuq20jj8"
+                      frameborder="0"
+                      scrolling="no"
+                      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                    ></iframe>
+                  </div>
+                  <textarea
+                    id="g-recaptcha-response"
+                    name="g-recaptcha-response"
+                    class="g-recaptcha-response"
+                    style="
+                      width: 250px;
+                      height: 40px;
+                      border: 1px solid rgb(193, 193, 193);
+                      margin: 10px 25px;
+                      padding: 0px;
+                      resize: none;
+                      display: none;
+                    "
+                  ></textarea>
+                </div>
+                <iframe style="display: none"></iframe>
+              </div>
+              <!-- end ngIf: t.captchaLoaded && !t.ipWhitelisted --><!-- ngIf: error -->
+            </div>
+            <div class="auth-form__footer">
+              <button
+                class="auth-form__footer__action ng-binding"
+                id="loginBtn"
+                ng-disabled="loginForm.$invalid"
+                ng-bind="i18n.authForm.footer.action.logIn"
+                disabled="disabled"
+              >
+                log in
+              </button>
+              <!-- ngIf: loading -->
+              <a
+                class="auth-form__footer__link ng-binding"
+                id="loginForgotLink"
+                ui-sref="auth.recover"
+                ng-bind="i18n.authForm.footer.link.forgot"
+                href="#"
+                >forgot password?</a
+              >
+            </div>
+            <pa-modal show="ambiguous" class="ng-isolate-scope"
+              ><div class="pa-modal ng-hide" ng-show="t.show">
+                <div
+                  class="pa-modal__bg"
+                  ng-click="t.show = !t.closeable"
+                ></div>
+                <div class="pa-modal__wrp pa-modal_copy">
+                  <div
+                    class="pa-modal__x"
+                    ng-show="t.closeable"
+                    ng-click="t.show = false"
+                    id=""
+                  ></div>
+                  <div class="pa-modal__content" ng-transclude="">
+                    <div class="auth-form__ambiguous ng-scope">
+                      <button
+                        class="auth-form__modal-btn ng-binding"
+                        ng-click="login('publisher')"
+                        ng-disabled="loading == 'publisher'"
+                        ng-class="{ loading: loading == 'publisher' }"
+                        ng-bind="i18n.authForm.modalBtn.pub"
+                      >
+                        Log in as publisher
+                      </button>
+                      <span
+                        class="auth-form__modal-sep ng-binding"
+                        ng-bind="i18n.authForm.modalSep"
+                        >Or</span
+                      >
+                      <button
+                        class="auth-form__modal-btn ng-binding"
+                        ng-click="login('advertiser')"
+                        ng-disabled="loading == 'advertiser'"
+                        ng-class="{ loading: loading == 'advertiser' }"
+                        ng-bind="i18n.authForm.modalBtn.adv"
+                      >
+                        Log in as advertiser
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div></pa-modal
+            >
+          </form>
+          <!-- ngIf: t.loading -->
+        </div>
+      </div>
+      <div class="signup ng-scope">
+        <!-- uiView: signup.action -->
+        <div class="signup__action ng-scope" ui-view="signup.action"></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      window.cfg = {
+        name: "clickadu.com",
+        title: "ClickADu",
+        favicon: "favicon_clickadu.ico",
+        api: "https://v2.api.clickadu.com/",
+        regURL: "http://www.clickadu.com/site/signup",
+        gaKey: "UA-85531130-1",
+        zones: { desktop: true, mobile: false },
+        info: {
+          copy: "Copyright © ClickADu 2014",
+          agreementURL: "http://www.clickadu.com/terms.html",
+        },
+        verificationTagName: "clckd",
+        refUrl: "https://www.clickadu.com/?rfd=",
+        refText: "Clickadu",
+        support: {
+          departments: {
+            pub: [
+              { id: 2, name: "finance" },
+              { id: 1, name: "tech" },
+              { id: 3, name: "misc" },
+            ],
+          },
+        },
+        zoneTypes: [{ type: "onclick", title: "Popunder" }],
+        cookieSettings: { path: "/", domain: ".clickadu.com" },
+        mixpanelToken: "fae17c3dfd0e6974b279b306e782b5ac",
+        mixpanelConfig: { debug: false },
+        rev: "c5b8244",
+        dev: false,
+        tplPrefix: "./tpl/",
+        buildTime: "Tue, 31 Jan 2023 13:41:58 GMT",
+      };
+    </script>
+    <script type="text/javascript" src="./app.js?c5b8244"></script>
+    <script>
+      window.addEventListener("load", function () {
+        var ad = document.querySelector(".afs_ads");
+        var adblockAlert = document.querySelector(".adblock-alert");
+        var count = 0;
+
+        var interval = setInterval(() => {
+          count++;
+          if (getComputedStyle(ad).display === "none") {
+            adblockAlert.classList.add("adblock-alert_visible");
+            if (ad.parentNode) {
+              ad.parentNode.removeChild(ad);
+            }
+            clearInterval(interval);
+          }
+
+          if (count >= 5) {
+            if (ad.parentNode) {
+              ad.parentNode.removeChild(ad);
+            }
+            clearInterval(interval);
+          }
+        }, 500);
+      });
+    </script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-85531130-1", "auto");
+      ga("require", "displayfeatures");
+    </script>
+    <script
+      src="https://browser.sentry-cdn.com/5.20.1/bundle.min.js"
+      integrity="sha384-O8HdAJg1h8RARFowXd2J/r5fIWuinSBtjhwQoPesfVILeXzGpJxvyY/77OaPPXUo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://browser.sentry-cdn.com/5.20.1/angular.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      Sentry.init({
+        dsn: "https://75a0d898c11b473ebfc2a45935df5607@o149501.ingest.sentry.io/5367508",
+        integrations: [new Sentry.Integrations.Angular({ angular })],
+      });
+    </script>
+    <script
+      async=""
+      defer=""
+      src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&amp;render=explicit"
+    ></script>
+    <script type="text/javascript" id="">
+      (function (a, c, e, f, d, b) {
+        a.hj =
+          a.hj ||
+          function () {
+            (a.hj.q = a.hj.q || []).push(arguments);
+          };
+        a._hjSettings = { hjid: 1077042, hjsv: 6 };
+        d = c.getElementsByTagName("head")[0];
+        b = c.createElement("script");
+        b.async = 1;
+        b.src = e + a._hjSettings.hjid + f + a._hjSettings.hjsv;
+        d.appendChild(b);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv\x3d");
+    </script>
+    <script type="text/javascript" id="">
+      !(function (b, e, f, g, a, c, d) {
+        b.fbq ||
+          ((a = b.fbq =
+            function () {
+              a.callMethod
+                ? a.callMethod.apply(a, arguments)
+                : a.queue.push(arguments);
+            }),
+          b._fbq || (b._fbq = a),
+          (a.push = a),
+          (a.loaded = !0),
+          (a.version = "2.0"),
+          (a.queue = []),
+          (c = e.createElement(f)),
+          (c.async = !0),
+          (c.src = g),
+          (d = e.getElementsByTagName(f)[0]),
+          d.parentNode.insertBefore(c, d));
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "799524127653273");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=799524127653273&amp;ev=PageView&amp;noscript=1"
+    /></noscript>
+    <div
+      style="
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(204, 204, 204);
+        box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px;
+        position: absolute;
+        transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 2000000000;
+        left: 0px;
+        top: -10000px;
+      "
+    >
+      <div
+        style="
+          width: 100%;
+          height: 100%;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          z-index: 2000000000;
+          background-color: rgb(255, 255, 255);
+          opacity: 0.05;
+        "
+      ></div>
+      <div
+        class="g-recaptcha-bubble-arrow"
+        style="
+          border: 11px solid transparent;
+          width: 0px;
+          height: 0px;
+          position: absolute;
+          pointer-events: none;
+          margin-top: -11px;
+          z-index: 2000000000;
+        "
+      ></div>
+      <div
+        class="g-recaptcha-bubble-arrow"
+        style="
+          border: 10px solid transparent;
+          width: 0px;
+          height: 0px;
+          position: absolute;
+          pointer-events: none;
+          margin-top: -10px;
+          z-index: 2000000000;
+        "
+      ></div>
+      <div style="z-index: 2000000000; position: relative">
+        <iframe
+          title="recaptcha challenge expires in two minutes"
+          src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=Nh10qRQB5k2ucc5SCBLAQ4nA&amp;k=6Lfcxi8UAAAAAIefFf-HZlPYbv8_ygq4XbRPXflo"
+          name="c-o3v8nuq20jj8"
+          frameborder="0"
+          scrolling="no"
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+          style="width: 100%; height: 100%"
+        ></iframe>
+      </div>
+    </div>
+    <iframe
+      id="_hjSafeContext_71536619"
+      title="_hjSafeContext"
+      tabindex="-1"
+      aria-hidden="true"
+      src="about:blank"
+      style="
+        display: none !important;
+        width: 1px !important;
+        height: 1px !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      "
+    ></iframe
+    ><iframe
+      id="intercom-frame"
+      style="
+        position: absolute !important;
+        opacity: 0 !important;
+        width: 1px !important;
+        height: 1px !important;
+        top: 0 !important;
+        left: 0 !important;
+        border: none !important;
+        display: block !important;
+        z-index: -1 !important;
+        pointer-events: none;
+      "
+      aria-hidden="true"
+      tabindex="-1"
+      title="Intercom"
+    ></iframe>
+  </body>
+</html>

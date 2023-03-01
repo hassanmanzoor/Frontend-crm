@@ -1,0 +1,158 @@
+.arcticmodal-overlay,
+.arcticmodal-container { position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; }
+.arcticmodal-container { overflow: auto; margin: 0; padding: 0; border: 0; border-collapse: collapse; }
+*:first-child+html .arcticmodal-container { height: 100% }
+.arcticmodal-container_i { height: 100%; margin: 0 auto; max-width: 90%;}
+.arcticmodal-container_i2 { padding: 24px; margin: 0; border: 0; vertical-align: middle; }
+.arcticmodal-error { padding: 20px; border-radius: 10px; background: #000; color: #fff; }
+.box-modal {
+    position: relative;
+}
+body{
+    overflow: auto !important;
+}
+.box-modal>img{
+    max-width: 100%;
+    position: relative;
+    left: -7.6%;
+    top: -10.9%;
+}
+.box-modal.deadly-sins{
+    display: block;
+    width: 768px;
+    background: url(../images/index/deadly.png) no-repeat top center;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.banner-marketing .deadly-sins-form{
+    display: block;
+    margin:0 auto;
+    padding: 28px 20px 0;
+}
+.banner-marketing .deadly-sins-form .inputs input{
+    border:2px solid #8b9daa;
+    background: #fff;
+    border-radius:8px;
+    margin-bottom: 20px;
+    line-height: 45px;
+    height: 45px;
+    font-size: 14px;
+}
+.banner-marketing .deadly-sins-btn{
+    padding:0;
+    margin-bottom: 30px;
+}
+.banner-marketing .deadly-sins-btn input{
+    display: block;
+    width: 100%;
+    background:#3498db;
+    border-radius:8px;
+    line-height: 45px;
+    height: 45px;
+    color: #fff;
+    font-size: 16px;
+    border:none;
+    border-bottom: 4px solid #287db5;
+    outline: none;
+
+}
+.banner-marketing .deadly-sins-btn input:hover{
+   opacity: 0.8;
+}
+.banner-marketing  .deadly-sins-check{
+    padding: 0 10px;
+    color: #fff;
+    position: relative;
+}
+.banner-marketing  .deadly-sins-check input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:0;
+    left:10px;
+}
+.banner-marketing  .deadly-sins-check label {
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 1.3;
+   margin-left: 32px;
+    margin-bottom: 0;
+}
+@media (max-height: 800px) {
+    .box-modal img{
+        max-height: 500px;
+    }
+}
+
+@media (max-height: 500px) {
+    .box-modal img{
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 900px) {
+    .box-modal.deadly-sins{
+        width: 90%;
+        margin: 0 auto;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        background-size: contain;
+    }
+    .box-modal.deadly-sins .deadly-sins-form {
+        width: 55%;
+        padding-top: 160px;
+        padding-bottom: 10px;
+    }
+    .box-modal.deadly-sins .deadly-sins-form .inputs input {
+        border-radius: 5px;
+        margin-bottom: 8px;
+        line-height: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .box-modal.deadly-sins .deadly-sins-btn {
+        padding: 5px 0 5px 77px;
+        margin-bottom: 8px;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        background-size: contain;
+    }
+    .box-modal.deadly-sins .deadly-sins-btn input {
+        border-radius: 5px;
+        line-height: 31px;
+        height: 35px;
+        font-size: 16px;
+        border-bottom: 2px solid #287db5;
+    }
+}
+@media (max-width: 640px) {
+    .box-modal.deadly-sins{
+        width: 400px;
+    }
+    .box-modal.deadly-sins  .deadly-sins-check{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .box-modal.deadly-sins{
+        width: 320px;
+        background-color: #240d0c;
+    }
+    .box-modal.deadly-sins .deadly-sins-form {
+        width: 75%;
+        padding-top: 110px;
+        padding-bottom: 10px;
+    }
+    .box-modal.deadly-sins .deadly-sins-form .inputs input,
+    .box-modal.deadly-sins .deadly-sins-btn input{
+        font-size: 14px;
+    }
+}
+@media (max-width: 360px) {
+    .box-modal.deadly-sins {
+        width: 260px;
+        background-color: #240d0c;
+    }
+}
